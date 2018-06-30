@@ -1,0 +1,18 @@
+<?import javafx.scene.control.DialogPane?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<DialogPane fx:controller="components.DialogController"
+            xmlns:fx="http://javafx.com/fxml">
+    <headerText>
+        Enter details here....
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="New artist name:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="newArtistName" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+        </GridPane>
+    </content>
+</DialogPane>
