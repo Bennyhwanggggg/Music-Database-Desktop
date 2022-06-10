@@ -24,4 +24,7 @@ jobs:
             # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
             # mandatory
             -Dsonar.projectKey=fjcastilloc_Music-Database-Desktop
-            -Dsonar.organization=fjcastilloc
+            -Dsonar.organization=fjcastilloc 
+            extraProperties:|
+            sonar.java.binaries=$(System.DefaultWorkingDirectory)/Users/xpacox/git/Music-Database-Desktop/**/*.class
+            sonar.test.inclusions=$(System.DefaultWorkingDirectory)/Users/xpacox/git/Music-Database-Desktop/**/*.java
