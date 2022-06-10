@@ -26,7 +26,5 @@ jobs:
             # mandatory
             -Dsonar.projectKey=fjcastilloc_Music-Database-Desktop
             -Dsonar.organization=fjcastilloc 
-            -Dsonar.exclusions = **/*.java
-       #   extraProperties:  |
-        #    sonar.java.binaries=$(System.DefaultWorkingDirectory)/Users/xpacox/git/Music-Database-Desktop/**/*.class
-         #   sonar.test.inclusions=$(System.DefaultWorkingDirectory)/Users/xpacox/git/Music-Database-Desktop/**/*.java
+          
+     
